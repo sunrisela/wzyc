@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/relativeLayout1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+ <com.baidu.mapapi.MapView android:id="@+id/bmapView"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:clickable="true"     
+/>
+  <LinearLayout android:orientation="horizontal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentTop="true" 
+android:layout_centerHorizontal="true">
+<ZoomControls 
+
+android:id="@+id/zoomcontrols"
+
+android:layout_gravity="bottom" 
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+
+<LinearLayout android:orientation="horizontal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_centerInParent="true" 
+android:layout_centerHorizontal="true">
+
+
+</LinearLayout> 
+<LinearLayout android:orientation="horizontal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentBottom="true" 
+android:layout_centerHorizontal="true">
+
+
+<Button android:id="@+id/queryRoute"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="我的位置">
+</Button>
+<Button android:id="@+id/reset"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="异常商户">
+</Button>
+<Button android:id="@+id/clear"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="条件查询">
+</Button>
+<Button android:id="@+id/quit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="标记清除">
+</Button>
+
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+

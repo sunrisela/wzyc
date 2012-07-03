@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="category1">
+<item>最近停车位</item>
+<item>停车位分布</item>
+</string-array>
+<string-array name="category2">
+<item>重新定位</item>
+<item>返回我的位置</item>
+</string-array>
+    <string-array name="port_arry"> 
+        <item> 片区：罗阳A片</item> 
+        <item>片区：罗阳B片</item> 
+        <item>片区：筱村片</item> 
+        <item> 片区：司前片</item> 
+        <item>片区：泗溪片</item> 
+        <item>片区：三魁片</item> 
+        <item>片区：仕阳片</item> 
+        <item>片区：雅阳片</item> 
+      </string-array> 
+         <string-array name="port_arry1"> 
+        <item>等级：重点监管</item> 
+        <item>等级：一般监管</item> 
+      </string-array> 
+      <string-array name="port_arry2"> 
+        <item>类别：总量异常</item> 
+        <item>类别：单品牌销售异常</item> 
+       <item>类别：许可证维护</item> 
+       <item>类别：外流嫌疑</item> 
+      </string-array> 
+         <string-array name="port_arry3"> 
+        <item>日期：......</item> 
+        <item>日期：......</item> 
+         </string-array> 
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="horizontal"  
+      android:background="@drawable/bubble_background"
+  android:id="@+id/map_bubblebtn"
+ android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+    android:paddingBottom="25dip"
+    >   
+  <TextView
+  	android:id="@+id/tv" 	
+  	android:maxEms="6"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:gravity="center"
+  	android:textColor="#000000"  
+    android:singleLine="true" 
+     android:onClick="get"
+  	/>  
+</LinearLayout>  
