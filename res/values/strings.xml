@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">欢迎使用 泰顺烟草App!</string>
-    <string name="app_name">泰顺烟草</string>
+    <string name="app_name">YC</string>
        <string name="exit">退出程序</string>
    <string name="emessage">确定要退出程序吗</string>
 </resources>

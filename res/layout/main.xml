@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
-<TextView android:text="欢迎使用百度地图API:)" android:id="@+id/text_Info" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<TextView android:text="欢迎使用我们的App ^_^" android:id="@+id/text_Info" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 <ListView android:layout_width="fill_parent"   
           android:layout_height="wrap_content"   
           android:id="@+id/listView"  
