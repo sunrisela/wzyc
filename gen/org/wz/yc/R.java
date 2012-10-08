@@ -18,6 +18,19 @@ public final class R {
     }
     public static final class attr {
     }
+    public static final class color {
+        public static final int background=0x7f050007;
+        public static final int deepcolor=0x7f050003;
+        public static final int gray=0x7f050001;
+        public static final int naming=0x7f050005;
+        public static final int orange=0x7f050002;
+        public static final int orange_yellow=0x7f050008;
+        public static final int red=0x7f050006;
+        public static final int remote_connect_text=0x7f050009;
+        public static final int remote_disconnect_text=0x7f05000a;
+        public static final int shadowcolor=0x7f050004;
+        public static final int yellow=0x7f050000;
+    }
     public static final class drawable {
         public static final int background=0x7f020000;
         public static final int bubble_background=0x7f020001;
@@ -31,15 +44,16 @@ public final class R {
         public static final int my_locat=0x7f020009;
         public static final int pop=0x7f02000a;
         public static final int searcher=0x7f02000b;
+        public static final int semi_black=0x7f02000f;
         public static final int spinner_background=0x7f02000c;
         public static final int spinnera=0x7f02000d;
         public static final int spinnerb=0x7f02000e;
     }
     public static final class id {
-        public static final int bmapView=0x7f060003;
-        public static final int dealers_listView=0x7f060000;
-        public static final int listView=0x7f060002;
-        public static final int text_Info=0x7f060001;
+        public static final int bmapView=0x7f070003;
+        public static final int dealers_listView=0x7f070000;
+        public static final int listView=0x7f070002;
+        public static final int text_Info=0x7f070001;
     }
     public static final class layout {
         public static final int dealers=0x7f030000;
@@ -47,9 +61,9 @@ public final class R {
         public static final int pointsroute=0x7f030002;
     }
     public static final class string {
-        public static final int app_name=0x7f050001;
-        public static final int emessage=0x7f050003;
-        public static final int exit=0x7f050002;
-        public static final int hello=0x7f050000;
+        public static final int app_name=0x7f060001;
+        public static final int emessage=0x7f060003;
+        public static final int exit=0x7f060002;
+        public static final int hello=0x7f060000;
     }
 }
